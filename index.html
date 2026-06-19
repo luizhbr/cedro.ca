@@ -17,15 +17,16 @@
 </head>
 <body class="bg-white text-slate-900">
 
-    <!-- Navbar corrigido -->
+    <!-- Navbar melhorado: botão à direita + logo maior -->
     <nav class="border-b border-slate-200 bg-white sticky top-0 z-50">
-        <div class="max-w-screen-xl mx-auto px-6 py-5 flex items-center justify-between">
+        <div class="max-w-screen-xl mx-auto px-5 sm:px-6 py-4 flex items-center justify-between gap-4">
             <div class="flex items-center gap-x-3">
-                <img src="assets/cedro-logo.jpeg" alt="Cedro" class="h-9 w-auto rounded-xl">
+                <img src="assets/cedro-logo.jpeg" alt="Cedro" class="h-10 w-auto rounded-xl">
                 <span class="font-semibold text-2xl tracking-tight">Cedro</span>
             </div>
+            
             <button onclick="document.getElementById('contato').scrollIntoView({behavior:'smooth'})" 
-                    class="px-6 py-2.5 text-sm font-semibold bg-[#1a3c34] text-white rounded-2xl hover:bg-black transition-colors">
+                    class="px-6 py-2.5 text-sm font-semibold bg-[#1a3c34] text-white rounded-2xl hover:bg-black transition-colors whitespace-nowrap flex-shrink-0">
                 Pedir Orçamento
             </button>
         </div>
