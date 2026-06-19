@@ -241,7 +241,6 @@
                     <div class="text-slate-500 text-sm mt-1">Ipatinga, MG</div>
                 </div>
             </div>
-            
             <div class="project-card group">
                 <div class="overflow-hidden">
                     <img src="https://picsum.photos/id/201/600/400" class="w-full object-cover aspect-[4/3] group-hover:scale-105 transition-transform duration-700" alt="Portas em cedro">
@@ -340,11 +339,10 @@
                     <select id="tipo" required class="form-input">
                         <option value="">Selecione...</option>
                         <option value="Portas e janelas">Portas e janelas</option>
-                        <option value="Forro e forração">Forro e forração</option>
                         <option value="Rodapés e guarnições">Rodapés e guarnições</option>
                         <option value="Escadas">Escadas</option>
-                        <option value="Móveis sob medida">Móveis sob medida</option>
                         <option value="Deck e pergolado">Deck e pergolado</option>
+                        <option value="Cercas de madeiras">Cercas de madeiras</option>
                         <option value="Projeto completo de acabamentos">Projeto completo de acabamentos</option>
                         <option value="Outros">Outros</option>
                     </select>
@@ -411,7 +409,7 @@
                     
                     if (rect.top < windowHeight && rect.bottom > 0) {
                         const scrollProgress = (windowHeight - rect.top) / windowHeight;
-                        const translateY = (scrollProgress - 0.5) * 15; // sutil
+                        const translateY = (scrollProgress - 0.5) * 15;
                         card.style.transform = `translateY(${translateY}px)`;
                     }
                 });
